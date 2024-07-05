@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    color:aliceblue;
+    background: #09001d;
+}
+
+header{
+    Position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color:aliceblue;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: aliceblue;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover:after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border-radius: 2px solid aliceblue;
+    outline: none; 
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:aliceblue;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: aliceblue;
+    color: #162938;
+}
+
+.container{
+    height: 100vh;
+    width: 200%;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+}
+
+.home-content h1 {
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 100px;
+    font-size: 78px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.home-content p {
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.special-menu{
+    padding: 100px
+}
+
+.services {
+    margin-top: 35vh;
+}
+
+.services h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;;
+}
+
+
+.bookshelf {
+    display: flex;
+    margin-top: 7px;
+}
+
+.card-container{
+    display: flex;
+    margin: 50px 20px 0 0;
+}
+    
+.card{
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 3px 3px 10px rgb(0 0 0 / 25%);
+    position: relative;
+}
+
+.importation {
+    display: flex;
+}
+
+.card .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border-radius: 2px solid aliceblue;
+    outline: none; 
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color:aliceblue;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 5px;
+    transition: .5s;
+}
+.card .btnLogin-popup:hover {
+    background: aliceblue;
+    color: #162938;
+}
+        
+img {
+    border-radius:20px;
+    width: 30vh;
+    height: 210px;
+}
+.rating {
+    position: absolute;
+    width: 50px;
+    box-shadow: 0 0 0 4px #ffffff6e;
+    border-radius: 25rem;
+    background: #ffffff;
+    padding: .3rem .8rem;
+    top: 2rem;
+    left: 2rem;
+    font-weight: bold;
+}
+.menu-title {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
