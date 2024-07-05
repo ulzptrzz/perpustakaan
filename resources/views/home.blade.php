@@ -35,6 +35,7 @@
     {{-- section 2 --}}
     <section class="services">
         <h2>Komik</h2>
+        {{-- RAK BUKU --}}
         <div class="bookshelf">
             <div class="card-container">
                 <div class="card">
@@ -110,6 +111,7 @@
             </div>
         </div>
         <h2>motivation</h2>
+        {{-- RAK BUKU --}}
         <div class="bookshelf">
             <div class="card-container">
                 <div class="card">
@@ -185,6 +187,7 @@
             </div>
         </div>
         <h2>horor</h2>
+        {{-- RAK BUKU --}}
         <div class="bookshelf">
             <div class="card-container">
                 <div class="card">
