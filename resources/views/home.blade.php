@@ -35,11 +35,7 @@
     {{-- section 2 --}}
     <section class="services">
         <h2>Komik</h2>
-<<<<<<< HEAD
-        {{-- RAK BUKU --}}
-=======
            {{-- RAK BUKU --}}
->>>>>>> 968928160f9bc7d370153834b95f99b01c968e11
         <div class="bookshelf">
             <div class="card-container">
                 <div class="card">
@@ -115,11 +111,7 @@
             </div>
         </div>
         <h2>motivation</h2>
-<<<<<<< HEAD
-        {{-- RAK BUKU --}}
-=======
          {{-- RAK BUKU --}}
->>>>>>> 968928160f9bc7d370153834b95f99b01c968e11
         <div class="bookshelf">
             <div class="card-container">
                 <div class="card">
@@ -195,11 +187,7 @@
             </div>
         </div>
         <h2>horor</h2>
-<<<<<<< HEAD
-        {{-- RAK BUKU --}}
-=======
          {{-- RAK BUKU --}}
->>>>>>> 968928160f9bc7d370153834b95f99b01c968e11
         <div class="bookshelf">
             <div class="card-container">
                 <div class="card">
